@@ -171,7 +171,7 @@ body {
     justify-content: center;
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 600px;
     background-position: top 25% right 0%;
     flex: 2;
 }
@@ -201,11 +201,11 @@ body {
 
 @media (max-width:450px) {
     .main .right h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .main .right p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .main .left {
@@ -318,13 +318,17 @@ body {
 }
 
 @media (max-width:500px) {
+    .section .right {
+        width: 100%;
+    }
+
     .section .right h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .section .right p {
-        font-size: 11px;
-        line-height: 25px;
+        font-size: 10px;
+        line-height: 17px;
     }
 }
 
@@ -402,6 +406,10 @@ body {
 
     .cards-section .cards {
         flex-wrap: wrap;
+    }
+
+    .cards-section .cards .card {
+        width: 100%;
     }
 }
 
