@@ -151,7 +151,7 @@ body {
 }
 
 .main .right h1 {
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 800;
 }
 
@@ -330,6 +330,7 @@ body {
 
     .section .right h2 {
         font-size: 20px;
+        margin-bottom: 5px;
     }
 
     .section .right p {
@@ -436,5 +437,107 @@ body {
     .cards-section .cards {
         justify-content: center;
         align-items: center;
+    }
+}
+
+.card-section2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 70px;
+}
+
+.card-section2 .title2 {
+    margin-bottom: 20px;
+}
+
+.card-section2 .title2 h1 {
+    font-size: 40px;
+}
+
+.card-section2 .cards-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.card-section2 .cards-2 .card {
+    background-color: var(--card);
+    border-radius: 20px;
+}
+
+.card-section2 .cards-2 .card img {
+    border-radius: 20px;
+}
+
+.card-section2 .cards-2 .card .text,
+.text3 {
+    display: flex;
+    gap: 10px;
+}
+
+.card-section2 .cards-2 .card .text {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card-section2 .cards-2 .card .text2 {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    gap: 75px;
+    padding-left: 15px;
+}
+
+
+.card-section2 .cards-2 .card .text2 p {
+    font-size: 18px;
+}
+
+.card-section2 .cards-2 .card .text3 {
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.card-section2 .cards-2 .card .text2 .icon {
+    display: flex;
+}
+
+.card-section2 .cards-2 .card .text,
+.text2,
+.text3 h3 {
+    font-size: 20px;
+}
+
+.card-section2 .cards-2 .card .text,
+.text3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-section2 .cards-2 .card .text2 i {
+    background-color: white;
+    font-size: 22px;
+    border-radius: 6px;
+}
+
+@media (max-width:870px) {
+    .card-section2 .cards-2 {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card-section2 .title2 h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:500px) {
+    .card-section2 {
+        padding: 10px 0;
     }
 }
