@@ -200,8 +200,12 @@ body {
 }
 
 @media (max-width:450px) {
+    .main {
+        padding: 10px 30px;
+    }
+
     .main .right h1 {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .main .right p {
@@ -209,6 +213,7 @@ body {
     }
 
     .main .left {
+        min-height: 800px;
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -299,6 +304,7 @@ body {
 @media (max-width:870px) {
     .section {
         flex-direction: column;
+        padding: 10px 40px;
     }
 
     .section .left {
@@ -327,8 +333,8 @@ body {
     }
 
     .section .right p {
-        font-size: 10px;
-        line-height: 17px;
+        font-size: 9px;
+        line-height: 13px;
     }
 }
 
@@ -414,6 +420,10 @@ body {
 }
 
 @media (max-width:500px) {
+    .cards-section {
+        padding: 10px 40px;
+    }
+
     .cards-section .title h2 {
         font-size: 30px;
 
