@@ -665,3 +665,58 @@ body {
         flex-wrap: wrap;
     }
 }
+
+@media (max-width:500px) {
+    .main2 {
+        padding: 10px 40px;
+    }
+
+    .main2 .title3 h1 {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+
+    .main2 .cards .mini-profile .text6 {
+        padding-right: 0;
+    }
+
+    .main2 .cards .mini-profile .rating {
+        margin-right: 0;
+    }
+
+    .main2 .card-section3 .profile2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:370px) {
+    .main2 .profile2 .text4 p {
+        font-size: 10px;
+    }
+
+    .main2 .title3 h1 {
+        font-size: 26px;
+    }
+
+    .main2 .cards .mini-profile .text6 h3 {
+        font-size: 12px;
+    }
+
+    .main2 .cards .mini-profile .text6 p {
+        font-size: 10px;
+    }
+
+    .main2 .cards .mini-profile .img2 img {
+        width: 30%;
+    }
+
+    .main2 .cards .mini-profile .rating {
+        height: 0;
+        width: 40px;
+        background-color: none;
+    }
+
+    .icon3 {
+        font-size: 30px;
+    }
+}
