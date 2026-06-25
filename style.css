@@ -720,3 +720,129 @@ body {
         font-size: 30px;
     }
 }
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px 70px;
+}
+
+.question .text7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    gap: 50px;
+    width: 100%;
+}
+
+.question .text7 h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.question .text8 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.question .text8 .first {
+    display: flex;
+
+}
+
+.question .text8 .first p,
+i {
+    font-size: 18px;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.question .text8 .second,
+i {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.question .text8 .second p {
+    font-size: 18px;
+}
+
+.question .text9 {
+    display: flex;
+    gap: 25px;
+    width: 58%;
+}
+
+.question .text9 i {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.question .text9 input {
+    width: 410px;
+    background-color: var(--card);
+    border: none;
+    padding-left: 25px;
+    border-radius: 10px;
+    min-width: 50%;
+}
+
+@media (max-width:870px) {
+    .question {
+        padding: 10px 40px;
+    }
+
+    .question .text7 h1 {
+        font-size: 30px;
+    }
+
+    .question .text8 .first p,
+    i {
+        font-size: 12px;
+    }
+
+    .question .text8 .second p,
+    i {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:500px) {
+    .question .text7 h1 {
+        font-size: 20px;
+    }
+
+    .question .text8 {
+        width: 100%;
+    }
+
+    .question .text9 {
+        width: 100%;
+    }
+
+    .question .text8 .first p,
+    i {
+        font-size: 10px;
+    }
+
+    .question .text8 .first p,
+    i {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:370px) {
+    .question .text9 input {
+        min-width: none;
+    }
+}
